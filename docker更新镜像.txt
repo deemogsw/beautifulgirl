@@ -1,0 +1,5 @@
+docker更新镜像：
+ 1.启动镜像 docker run flink:1.10 /bin/bash
+ 2.docker ps -a
+ 3.docker cp mytest contiannerid:/opt/flink/conf
+ 4.docker commint containnerid flink:v2
